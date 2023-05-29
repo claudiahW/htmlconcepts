@@ -8,13 +8,21 @@
     line-height: 24pt;
     letter-spacing: 2pt;
     color: rgb(49, 193, 95); /* we can either use words,(r,g,b) or hexadecimal to pick colors*/
-    width: 400px;
+    width: 500px;
     border-left: 2px solid red;
     border-right: 2px dotted blue;
     padding: 10px;
     margin: 100px;
      /* the hexacolor code for black is 000000*/
 }
-.bgImage{
-    background: url(images/Tatemodern.jpeg) top center no-repeat;
-}
+    a {
+        font-size: 30pt;
+        font-weight: bold;
+        color: yellowgreen;
+        text-decoration: none;
+    }
+    a:hover{
+    
+    text-decoration: underline;
+    }
+
