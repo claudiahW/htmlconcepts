@@ -1,11 +1,16 @@
 @charset "UTF-8";
 
 .paragraphOne{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18pt;
-    color: firebrick;
+    font-family: arial;
+    font-size: 20pt;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 24pt;
+    letter-spacing: 2pt;
+    color: rgb(49, 193, 95); /* we can either use words,(r,g,b) or hexadecimal to pick colors*/
     width: 400px;
     border: 2px solid black;
     padding: 10px;
     margin: 100px;
+    background-color: #000000; /* the hexacolor code for black is 000000*/
 }
