@@ -35,6 +35,35 @@
     width: 450px;
     height: 350px;
 }
+
+
+/* favorite food styling */
+.foodbody{
+    margin: 0;
+    background-color: #def3fd;
+}
+
+#topnav{
+    background-color: #779ecb;
+    padding: 24px;
+}
+.foodnavitem{
+    font-size: 24px;
+    padding: 8px ;
+    font-weight: 600;
+}
+
+#list-heading {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.food-list-item{
+    
+}
+/*end of favoritefood styling */
+
+
 .paragraphOne{
     font-family: arial;
     font-size: 20pt;
