@@ -28,7 +28,13 @@
 #third-section{
     background-color: lightgoldenrodyellow;
 }
-
+#fourth-section{
+    background-color: blue;
+}
+.googlepic{
+    width: 450px;
+    height: 350px;
+}
 .paragraphOne{
     font-family: arial;
     font-size: 20pt;
