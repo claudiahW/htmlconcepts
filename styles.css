@@ -6,8 +6,8 @@
 }/* start by linking with ids before classes */
 
 .pot{
-    color: darkblue;
-    background-color: lightblue;
+    color: #000;
+    background-color: (256,256,256);
 }
 
 
@@ -58,7 +58,7 @@
 }
 .headerTwo{
     text-align: center;
-    color: white;
+    color: blueviolet;
     
 }
 .container{
