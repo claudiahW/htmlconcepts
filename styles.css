@@ -21,14 +21,17 @@
      /* the hexacolor code for black is 000000*/
 }
     a {
-        font-size: 30pt;
+        font-size: 15pt;
         font-weight: bold;
-        color: yellowgreen;
+        color: blueviolet;
         text-decoration: none;
     }
     a:hover{
     
     text-decoration: underline;
     }
-
+.pics{
+    height: 300px;
+    width: 300px;
+}
 
