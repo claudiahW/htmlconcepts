@@ -5,6 +5,12 @@
     height: 70px;
 }/* start by linking with ids before classes */
 
+.pot{
+    color: darkblue;
+    background-color: lightblue;
+}
+
+
 .paragraphOne{
     font-family: arial;
     font-size: 20pt;
@@ -32,15 +38,31 @@
     }
 .pics{
     height: 300px;
-    width: 300px;
+    width: 100%;
 }
 .bodyy{
     margin: 10px;
+    background-color: #f2f6ff;
 }
 .p1{
     padding: 16px;
     line-height: 1.5;
     font-size: 24px;
 }
-
+.headerFour{
+    padding-left:16px ;
+    font-size: 24px;
+}
+.listItems{
+    font-size: 24px;
+}
+.headerTwo{
+    text-align: center;
+    color: white;
+    
+}
+.container{
+    font-size: 24px;
+    padding: 120px;
+}
 
