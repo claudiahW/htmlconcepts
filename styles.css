@@ -1,15 +1,33 @@
 @charset "UTF-8";
 
-#topArea{
-    background-color: #000000;
-    height: 70px;
-}/* start by linking with ids before classes */
 
+/* start by linking with ids before classes */
+
+#topbar{
+    list-style-type: none;
+    background-color: lightpink;
+    padding: 16px;
+}
 .pot{
     color: #000;
     background-color: (256,256,256);
 }
 
+.section {
+    width: 100%;
+    height:550px;
+}
+
+#first-section{
+    background-color: lightblue;
+}
+
+#second-section{
+    background-color: lightgreen;
+}
+#third-section{
+    background-color: lightgoldenrodyellow;
+}
 
 .paragraphOne{
     font-family: arial;
