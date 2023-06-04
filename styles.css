@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+.tableone{
+    border-collapse: collapse;
+    width: 700px;
+    height: 600px;
+    background-color: aquamarine;
+}
+td{
+    padding: 10px;
+    padding-left: 15px;
+}
+
 
 /* start by linking with ids before classes */
 
@@ -98,8 +109,10 @@
     text-decoration: underline;
     }
 .pics{
-    height: 300px;
-    width: 100%;
+    height: 200px;
+    width: 220px;
+    margin: 10px;
+    align-items: center;
 }
 .bodyy{
     margin: 10px;
