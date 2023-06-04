@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tableproject</title>
-</head>
-<body>
-    
-</body>
+
+    <style>
+        table{
+            width: 600px;
+        }
+        table, td, th {
+            border:3px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            line-height: 1.3;
+        }
+        .label{
+            font-weight:600;
+        }
+    </style>
+
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th colspan="3">INVOICE #1234ABCD</th>
+        <th>20TH FEBRUARY 2023</th>
+      </tr>
+      <tr>
+        <td colspan="2"><span class="label">Pay To:<br></span>
+            The Tech Park<br>
+            123 Willow Street <br>
+            Pretoria
+        </td>
+        <td colspan="2">
+            <span class="label">Customer:<br></span>
+            James Lannistar<br>
+            Windhoek Apartments<br>
+            345 Main Street<br>
+            Johburg
+        </td>
+
+      </tr>
+      <tr>
+        <td>Name/Description</td>
+        <td>Qty:</td>
+        <td>MRP</td>
+        <td>Amount</td>
+    </tr>
+    </table>
+  </body>
 </html>
