@@ -5,49 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
+    <style>
+        #register-form {
+            width: 300px;
+            background-color: white;
+            padding: 24px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .input-label{
+            margin: 0;
+            margin-bottom: 4px;
+            margin-top: 12px;
+        }
+        .input-item{
+            width: 100%;
+        }
+        #terms-check{
+            margin-left: 12px;
+            margin-bottom: 12px;
+        }
+    </style>
 </head>
-<body>
-    <h1>Sign Up Form</h1>
-    <form>
+<body style="background-color: lightblue;">
+    <h1 style="text-align: center;">Sign Up Form</h1>
+    <form id="register-form">
     <div>
         
-        Full Name:<br>
-        <input type="text" name="fullname">
+        <p class="input-label">Full Name:</p>
+        <input class="input-item" type="text" name="fullname">
     </div>
 
     <div>
         <div>
         
-            Email:<br>
-            <input type="email" name="email">
+            <p class="input-label">Email:</p>
+            <input class="input-item" type="email" name="email">
         </div>
         
-        Password:<br>
-        <input type="text" name="password">
+       <p class="input-label">Password:</p>
+        <input class="input-item" type="text" name="password">
     </div>
 
     <div>
         
-        Confirm Password:<br>
-        <input type="text" name="confirm-password">
+        <p class="input-label">Confirm Password:</p>
+        <input class="input-item" type="text" name="confirm-password">
     </div>
    
 
     <div> 
-        Gender:<br>
+       <p class="input-label">Gender:</p>
         <input type="radio" name="gender" value="male">Male</input>
         <input type="radio" name="gender" value="female">Female</input>
         <input type="radio" name="gender" value="other">Other</input>
     </div>
     <div>
-        Security Question:
-        <select name="security-question"> <!--select tag gives us a dropdown menu-->
-        
+       <p class="input-label">Security Question:</p>
+        <select class="input-item" name="security-question"> <!--select tag gives us a dropdown menu-->
         <option value="first-pet-name">What was the name of your first pet?</option>
         <option value="first-grade-teacher">What was the name of your first grade teacher?</option>
         </select>
     </div>
-    
+    <div>
+        <textarea class="input-item" name="answer" rows="6" cols="30"></textarea>
+    </div>
+    <div>
+        <input  id="terms-check" type="checkbox" name="terms-conditions" value="accept">I Agree to the Terms and Conditions
+    </div>
+    <input type="submit" value="Register">
 </form>
        
 </body>
