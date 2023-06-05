@@ -10,9 +10,10 @@
         table{
             width: 600px;
             text-align: left;
+            background-color: white;
         }
         table, td, th {
-            border:3px solid black;
+            border:1px solid #aaa;
             border-collapse: collapse;
             padding: 8px;
             line-height: 1.3;
@@ -21,10 +22,13 @@
         .label{
             font-weight:600;
         }
+        th{
+          background-color: lightblue;
+        }
     </style>
 
   </head>
-  <body>
+  <body style="background-color: #f2f6ff;">
     <table>
       <tr>
         <th colspan="3">INVOICE #1234ABCD</th>
@@ -65,9 +69,21 @@
       <td>600</td>
       
     </tr>
+
     <tr>
       <th colspan="3">Subtotal:</th>
       <td>1800</td>
+    </tr>
+      <th colspan="2">Tax</th>
+      <td>10%</td>
+      <td>180</td>
+    <tr>
+
+    </tr>
+      <th colspan="3">Grand Total:</th>
+      <td>Ksh 1620</td>
+    <tr>
+
     </tr>
     </table>
   </body>
