@@ -13,26 +13,45 @@
      <p>Password:
       <input type="password" name="password" value="reset">
       <br> 
-      <input type="reset"></p> <!--putting the p tag in the input and textarea code allows you to have neater spaced code-->
+      <input type="reset"></p> 
+      <!--putting the p tag in the input and textarea code allows you to have neater spaced code-->
+      <div style="padding: 10px; line-height: 2;">
+
+     start date <input type="date" name="date" min="2023-01-01"><br>
+     end date <input type="date" name="endate" max="2030-01-01">
+    
+      </div>
+      <div>Kindly attach your cv <br>
+      <input type="file" name="image">
+      </div>
+      <br>
+
+      <div>
      <p>Which fruits do you like?</p>
      <label><input type="checkbox" name="CG" value="apple" id="CG1">Apple</label>
       <label><input type="checkbox" name="CG" value="orange" id="CG2">Orange</label>
       <label><input type="checkbox" name="CG" value="banana" id="CG3">Banana</label>
-        <p>What is your gender</p>
+      </div>
+       <div><p>What is your gender</p>
       <p>
       <label><input type="radio" name="gender" value="male" id="RG1">Male</label>
       <label><input type="radio" name="gender" value="female" id="RG2">Female</label>
         </p>
+       </div>
+       <div>
         <p>
             When were you born?
         </br>
         <input type="date"></p>
-
+       </div>
+       <div>
         <p>Would you like to submit this information?
+          <br>
             <input type="submit"></p>
-
+          </div>
 
         </form>
+        <p>Which technologies are you familiar with?</p>
         <form>
           <input list="technologies" name="technology"/>
           <datalist id="technologies">
@@ -46,10 +65,7 @@
                 <option value="Redux">
                   <option value="Python">
                     <option value="PHP">
-
-
-
-          </datalist>
+     </datalist>
         </form>
   </body>
 </html>

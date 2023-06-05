@@ -35,16 +35,22 @@
     <div>
         
         <p class="input-label">Full Name:</p>
-        <input class="input-item" type="text" name="fullname"><!--if you dot give a value to name then that data isnt sent to the backend-->
+        <input class="input-item" 
+        type="text" 
+                name="fullname"
+                 placeholder="your name here"
+                autofocus>
+                <!--autofocus allows the input area to be outlined/focus and the cursor to keep blinking-->
+                <!--if you dot give a value to name then that data isnt sent to the backend-->
     </div>
 
-    <div>
         <div>
         
             <p class="input-label">Email:</p>
-            <input class="input-item" type="email" name="email">
+            <input class="input-item" type="email" name="email" placeholder="email">
         </div>
-        
+    <div>
+
        <p class="input-label">Password:</p>
         <input class="input-item" type="text" name="password">
     </div>
@@ -64,7 +70,8 @@
     </div>
     <div>
        <p class="input-label">Security Question:</p>
-        <select class="input-item" name="security-question"> <!--select tag gives us a dropdown menu-->
+        <select class="input-item" name="security-question" multiple> <!--select tag gives us a dropdown menu-->
+            <!--using the multiple tag allows us to select more than one option-->
         <option value="first-pet-name">What was the name of your first pet?</option>
         <option value="first-grade-teacher">What was the name of your first grade teacher?</option>
         </select>
