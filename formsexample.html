@@ -53,16 +53,25 @@
              placeholder="email"
              required><!--required makes sure the user has filled this area out efore proceeding,this is data validation-->
         </div>
+        <div>
+            <p class="input-label">Age:
+                <input class="input-item"
+                 type="number"
+                name="age"
+                min="18"
+                max="35">
+            </p>
+        </div>
     <div>
 
        <p class="input-label">Password:</p>
-        <input class="input-item" type="text" name="password">
+        <input class="input-item" type="text" name="password" maxlength="8">
     </div>
 
     <div>
         
         <p class="input-label">Confirm Password:</p>
-        <input class="input-item" type="text" name="confirm-password">
+        <input class="input-item" type="text" name="confirm-password" maxlength="8">
     </div>
    
 
