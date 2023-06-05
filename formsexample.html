@@ -29,11 +29,11 @@
 </head>
 <body style="background-color: lightblue;">
     <h1 style="text-align: center;">Sign Up Form</h1>
-    <form id="register-form">
+    <form id="register-form" method="get"> <!--you put get at the start of the form-->
     <div>
         
         <p class="input-label">Full Name:</p>
-        <input class="input-item" type="text" name="fullname">
+        <input class="input-item" type="text" name="fullname"><!--if you dot give a value to name then that data isnt sent to the backend-->
     </div>
 
     <div>
