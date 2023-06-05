@@ -8,8 +8,12 @@
   </head>
   <body>
     <form>
-      <p><input type="text" /></p>
-     <p><textarea>Your Name goes here</textarea></p> <!--putting the p tag in the input and textarea code allows you to have neater spaced code-->
+      <p>Username:
+        <input type="text" name="username"/></p>
+     <p>Password:
+      <input type="password" name="password" value="reset">
+      <br> 
+      <input type="reset"></p> <!--putting the p tag in the input and textarea code allows you to have neater spaced code-->
      <p>Which fruits do you like?</p>
      <label><input type="checkbox" name="CG" value="apple" id="CG1">Apple</label>
       <label><input type="checkbox" name="CG" value="orange" id="CG2">Orange</label>
@@ -28,6 +32,24 @@
             <input type="submit"></p>
 
 
+        </form>
+        <form>
+          <input list="technologies" name="technology"/>
+          <datalist id="technologies">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+            <option value="C++">
+            <option value="Git">
+            <option value="Angular">
+              <option value="React">
+                <option value="Redux">
+                  <option value="Python">
+                    <option value="PHP">
+
+
+
+          </datalist>
         </form>
   </body>
 </html>
